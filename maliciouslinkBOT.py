@@ -92,7 +92,7 @@ while True:
       print(msg)
       X_predict = [] 
       X_predict.append(msg) 
-      print X_predict
+      print(X_predict)
       X_predict = vectorizer.transform(X_predict)
       New_predict = logit.predict(X_predict)
       print (New_predict)
