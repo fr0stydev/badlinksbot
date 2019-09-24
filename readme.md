@@ -2,6 +2,9 @@
 A simple Twitch Malicious URL Detector BOT written in Python
 Detects bad links
 
+## Build and Run
+```docker build && docker run```
+
 ## Purpose
 To help streamer filter out the bad URLs by automatically deleting them in their IRC
 
